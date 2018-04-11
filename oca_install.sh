@@ -28,7 +28,7 @@ sudo ln -s /opt/odoo/account_banking_payment_transfer /opt/odoo/custom/addons???
 sudo ln -s /opt/odoo/bank-payment/account_banking_sepa_direct_debit /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account_direct_debit,/opt/odoo/custom/addons???
 sudo ln -s /opt/odoo/bank-payment/account_payment_partner /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/account_bank_statement_import,/opt/odoo/custom/addons=
+sudo ln -s /opt/odoo/account_bank_statement_import /opt/odoo/custom/addons??
 susudo ln -s /opt/odoo/do ln -s /opt/odoo/attachment_preview,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo/attachments_to_filesystem,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo/document_page,/opt/odoo/custom/addons
