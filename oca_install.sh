@@ -29,7 +29,7 @@ sudo ln -s /opt/odoo/bank-payment/account_banking_sepa_direct_debit /opt/odoo/cu
 sudo ln -s /opt/odoo/account_direct_debit,/opt/odoo/custom/addons???
 sudo ln -s /opt/odoo/bank-payment/account_payment_partner /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account_bank_statement_import /opt/odoo/custom/addons??
-susudo ln -s /opt/odoo/do ln -s /opt/odoo/attachment_preview,/opt/odoo/custom/addons
+sudo ln -s /opt/odoo/attachment_preview,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo/attachments_to_filesystem,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo/document_page,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo/document_url,/opt/odoo/custom/addons
@@ -37,5 +37,7 @@ sudo ln -s /opt/odoo/account_balance_reporting_xls,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account_balance_reporting,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account_refund_original,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n_es_account_asset,/opt/odoo/custom/addons
+
+
 sudo ln -s /opt/odoo/l10n_es_account_balance_report,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n_es_account_bank_statement_import_n43,/opt/odoo/custom/addons
