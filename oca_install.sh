@@ -12,9 +12,6 @@ sudo git clone https://github.com/OCA/l10n-spain.git -b 10.0 /opt/odoo/l10n-spai
 
 #.-Acceso directo
 
-
-
-
 sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-reporting/account_move_line_report_xls /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-tools/account_chart_update//opt/odoo/custom/addons              
@@ -44,3 +41,29 @@ sudo ln -s /opt/odoo/l10n_es_account_asset,/opt/odoo/custom/addons??
 
 sudo ln -s /opt/odoo/l10n_es_account_balance_report,/opt/odoo/custom/addons??
 sudo ln -s /opt/odoo/l10n_es_account_bank_statement_import_n43,/opt/odoo/custom/addons????
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_invoice_sequence,
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod111,
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod115,
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod130,
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod303,
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod340_type0,
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod340,
+sudo ln -s /opt/odoo/l10n_es_aeat_mod347,????
+sudo ln -s /opt/odoo/l10n_es_aeat_mod349,???
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat,
+sudo ln -s /opt/odoo/l10n_es_fiscal_year_closing,????
+sudo ln -s /opt/odoo/l10n_es_partner_mercantil /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_partner /opt/odoo/custom/addons
+
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_toponyms /opt/odoo/custom/addons
+sudo ln -s /opt/l10n-spain/odoo/l10n_es /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/base_location,
+sudo ln -s /opt/odoo/base_location_geonames_import,
+sudo ln -s /opt/odoo/base_partner_sequence,
+sudo ln -s /opt/odoo/report_custom_filename,
+sudo ln -s /opt/odoo/report_xls,
+sudo ln -s /opt/odoo/disable_openerp_online,
+sudo ln -s /opt/odoo/mass_editing,
+sudo ln -s /opt/odoo/web_export_view
+
+
