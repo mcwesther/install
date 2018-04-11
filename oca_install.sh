@@ -1,12 +1,14 @@
 #!/bin/bash
 # 1.-Descarga
-sudo git clone https://github.com/OCA/l10n-spain.git -b 10.0 /opt/odoo/l10n-spain)
-sudo git clone https://github.com/OCA/partner-contact.git -b 10.0 /opt/odoo/partner-contact)
-sudo git clone https://github.com/OCA/account-financial-reporting.git
+
+
+sudo git clone https://github.com/OCA/account-financial-reporting.git -b 10.0 /opt/odoo/account-financial-reporting
 #.-Acceso directo
 
+sudo ln -s /opt/odoo/account_export_csv,/opt/odoo/custom/addons
 
-account_export_csv,/opt/odoo/custom/addons
+
+sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv/opt/odoo/custom/addons
 account_move_line_report_xls,/opt/odoo/custom/addons
 account_chart_update ,
 account_invoice_constraint_chronology,/opt/odoo/custom/addons
