@@ -9,6 +9,7 @@ sudo git clone https://github.com/OCA/account-payment.git -b 10.0 /opt/odoo/acco
 sudo git clone https://github.com/OCA/bank-payment.git-b 10.0 /opt/odoo/bank-payment
 sudo git clone https://github.com/OCA/knowledge.git -b 10.0 /opt/odoo/knowledge
 sudo git clone https://github.com/OCA/l10n-spain.git -b 10.0 /opt/odoo/l10n-spain
+sudo git clone https://github.com/OCA/partner-contact.git -b 10.0 /opt/odoo/partner-contac
 
 #.-Acceso directo
 
@@ -57,9 +58,9 @@ sudo ln -s /opt/odoo/l10n-spain/l10n_es_partner /opt/odoo/custom/addons
 
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_toponyms /opt/odoo/custom/addons
 sudo ln -s /opt/l10n-spain/odoo/l10n_es /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/base_location,
-sudo ln -s /opt/odoo/base_location_geonames_import,
-sudo ln -s /opt/odoo/base_partner_sequence,
+sudo ln -s /opt/odoo/partner-contact/base_location  /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/partner-contact/base_location_geonames_import  /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/partner-contact/base_partner_sequence  /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/report_custom_filename,
 sudo ln -s /opt/odoo/report_xls,
 sudo ln -s /opt/odoo/disable_openerp_online,
