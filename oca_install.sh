@@ -43,15 +43,15 @@ sudo ln -s /opt/odoo/l10n_es_account_asset,/opt/odoo/custom/addons??
 sudo ln -s /opt/odoo/l10n_es_account_balance_report,/opt/odoo/custom/addons??
 sudo ln -s /opt/odoo/l10n_es_account_bank_statement_import_n43,/opt/odoo/custom/addons????
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_invoice_sequence,
-sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod111,
-sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod115,
-sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod130,
-sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod303,
-sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod340_type0,
-sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod340,
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod111 /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod115 /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod130 /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod303 /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod340_type0 /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod340 /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n_es_aeat_mod347,????
 sudo ln -s /opt/odoo/l10n_es_aeat_mod349,???
-sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat,
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n_es_fiscal_year_closing,????
 sudo ln -s /opt/odoo/l10n_es_partner_mercantil /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_partner /opt/odoo/custom/addons
