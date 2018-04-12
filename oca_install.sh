@@ -1,22 +1,17 @@
 #!/bin/bash
 # 1.-Descarga
-
-
 sudo git clone https://github.com/OCA/account-financial-reporting.git -b 10.0 /opt/odoo/account-financial-reporting
-
 sudo git clone https://github.com/OCA/account-financial-tools.git -b 10.0/opt/odoo/account-financial-tools
 sudo git clone https://github.com/OCA/account-payment.git -b 10.0 /opt/odoo/account-payment
 sudo git clone https://github.com/OCA/bank-payment.git-b 10.0 /opt/odoo/bank-payment
 sudo git clone https://github.com/OCA/knowledge.git -b 10.0 /opt/odoo/knowledge
 sudo git clone https://github.com/OCA/l10n-spain.git -b 10.0 /opt/odoo/l10n-spain
 sudo git clone https://github.com/OCA/partner-contact.git -b 10.0 /opt/odoo/
-
 sudo git clone https://github.com/OCA/reporting-engine.git -b 10.0 /opt/odoo/reporting-engine
 sudo git clone https://github.com/OCA/server-tools.git -b 10.0 /opt/odoo/server-tools
 sudo git clone https://github.com/OCA/web.git -b 10.0 /opt/odoo/web
 
 #.-Acceso directo
-
 sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-reporting/account_move_line_report_xls /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-tools/account_chart_update//opt/odoo/custom/addons              
@@ -59,7 +54,6 @@ sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n_es_fiscal_year_closing,????
 sudo ln -s /opt/odoo/l10n_es_partner_mercantil /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_partner /opt/odoo/custom/addons
-
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_toponyms /opt/odoo/custom/addons
 sudo ln -s /opt/l10n-spain/odoo/l10n_es /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/partner-contact/base_location  /opt/odoo/custom/addons
