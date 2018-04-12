@@ -11,6 +11,9 @@ sudo git clone https://github.com/OCA/knowledge.git -b 10.0 /opt/odoo/knowledge
 sudo git clone https://github.com/OCA/l10n-spain.git -b 10.0 /opt/odoo/l10n-spain
 sudo git clone https://github.com/OCA/partner-contact.git -b 10.0 /opt/odoo/partner-contac
 
+
+sudo git clone https://github.com/OCA/web.git -b 10.0 /opt/odoo/web
+
 #.-Acceso directo
 
 sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons
