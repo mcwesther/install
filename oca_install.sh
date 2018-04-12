@@ -14,7 +14,7 @@ sudo git clone https://github.com/OCA/web.git -b 10.0 /opt/odoo/web
 #.-Acceso directo
 sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-reporting/account_move_line_report_xls /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/account-financial-tools/account_chart_update//opt/odoo/custom/addons              
+sudo ln -s /opt/odoo/account-financial-tools/account_chart_update /opt/odoo/custom/addons              
 sudo ln -s /opt/odoo/account-financial-tools/account_invoice_constraint_chronology /opt/odoo/custom/addons                    
 sudo ln -s /opt/odoo/account-financial-tools/account_invoice_currency /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account_journal_always_check_date /opt/odoo/custom/addons
@@ -30,7 +30,7 @@ sudo ln -s /opt/odoo/account_direct_debit,/opt/odoo/custom/addons???
 sudo ln -s /opt/odoo/bank-payment/account_payment_partner /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account_bank_statement_import /opt/odoo/custom/addons??
 sudo ln -s /opt/odoo/knowledge/attachment_preview /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/knowledge/attachments_to_filesystem,/opt/odoo/custom/addons
+sudo ln -s /opt/odoo/knowledge/attachments_to_filesystem /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/knowledge/document_page /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/knowledge/document_url /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account_balance_reporting_xls,/opt/odoo/custom/addons??
