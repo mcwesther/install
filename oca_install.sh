@@ -11,7 +11,7 @@ sudo git clone https://github.com/OCA/knowledge.git -b 10.0 /opt/odoo/knowledge
 sudo git clone https://github.com/OCA/l10n-spain.git -b 10.0 /opt/odoo/l10n-spain
 sudo git clone https://github.com/OCA/partner-contact.git -b 10.0 /opt/odoo/partner-contac
 
-sudo git clone https://github.com/JayVora-SerpentCS/MassEditing.git -b 10.0 /opt/odoo/
+sudo git clone https://github.com/OCA/server-tools.git -b 10.0 /opt/odoo/
 sudo git clone https://github.com/OCA/web.git -b 10.0 /opt/odoo/web
 
 #.-Acceso directo
@@ -67,7 +67,7 @@ sudo ln -s /opt/odoo/partner-contact/base_partner_sequence  /opt/odoo/custom/add
 sudo ln -s /opt/odoo/report_custom_filename,
 sudo ln -s /opt/odoo/report_xls,
 sudo ln -s /opt/odoo/disable_openerp_online,
-sudo ln -s /opt/odoo/mass_editing,
+sudo ln -s /opt/odoo/partner-contact/mass_editing /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/web/web_export_view /opt/odoo/custom/addons
 
 
