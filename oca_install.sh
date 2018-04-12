@@ -67,7 +67,7 @@ sudo ln -s /opt/odoo/partner-contact/base_partner_sequence  /opt/odoo/custom/add
 sudo ln -s /opt/odoo/report_custom_filename,
 sudo ln -s /opt/odoo/report_xls,
 sudo ln -s /opt/odoo/disable_openerp_online,
-sudo ln -s /opt/odoo/partner-contact/mass_editing /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/server-tools/mass_editing /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/web/web_export_view /opt/odoo/custom/addons
 
 
