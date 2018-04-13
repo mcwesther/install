@@ -1,9 +1,9 @@
 #!/bin/bash
 # 1.-Descarga
 sudo git clone https://github.com/OCA/account-financial-reporting.git -b 10.0 /opt/odoo/account-financial-reporting
-sudo git clone https://github.com/OCA/account-financial-tools.git -b 10.0/opt/odoo/account-financial-tools
+sudo git clone https://github.com/OCA/account-financial-tools.git -b 10.0 /opt/odoo/account-financial-tools
 sudo git clone https://github.com/OCA/account-payment.git -b 10.0 /opt/odoo/account-payment
-sudo git clone https://github.com/OCA/bank-payment.git-b 10.0 /opt/odoo/bank-payment
+sudo git clone https://github.com/OCA/bank-payment.git -b 10.0 /opt/odoo/bank-payment
 sudo git clone https://github.com/OCA/knowledge.git -b 10.0 /opt/odoo/knowledge
 sudo git clone https://github.com/OCA/l10n-spain.git -b 10.0 /opt/odoo/l10n-spain
 sudo git clone https://github.com/OCA/partner-contact.git -b 10.0 /opt/odoo/partner-contact
