@@ -30,7 +30,7 @@ sudo ln -s /opt/odoo/knowledge/attachment_preview /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/knowledge/attachments_to_filesystem /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/knowledge/document_page /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/knowledge/document_url /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/l10n-spain/account_balance_reporting /opt/odoo/custom/addns
+sudo ln -s /opt/odoo/l10n-spain/account_balance_reporting /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod111 /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod115 /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod130 /opt/odoo/custom/addons
