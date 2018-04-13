@@ -11,6 +11,8 @@ sudo git clone https://github.com/OCA/reporting-engine.git -b 10.0 /opt/odoo/rep
 sudo git clone https://github.com/OCA/server-tools.git -b 10.0 /opt/odoo/server-tools
 sudo git clone https://github.com/OCA/web.git -b 10.0 /opt/odoo/web
 
+https://github.com/OCA/https://github.com/OCA/l10n-spain.git.git
+
 #.-Acceso directo
 sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-reporting/account_move_line_report_xls /opt/odoo/custom/addons
