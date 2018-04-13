@@ -10,7 +10,7 @@ sudo git clone https://github.com/OCA/partner-contact.git -b 10.0 /opt/odoo/part
 sudo git clone https://github.com/OCA/reporting-engine.git -b 10.0 /opt/odoo/reporting-engine
 sudo git clone https://github.com/OCA/server-tools.git -b 10.0 /opt/odoo/server-tools
 sudo git clone https://github.com/OCA/web.git -b 10.0 /opt/odoo/web
-
+sudo git clone https://github.com/OCA/account-invoicing.git -b 10.0 /opt/odoo/account-invoicing
 
 #.-Acceso directo
 sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons
@@ -48,5 +48,26 @@ sudo ln -s /opt/odoo/partner-contact/base_partner_sequence /opt/odoo/custom/addo
 sudo ln -s /opt/odoo/reporting-engine/report_xlsx /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/server-tools/mass_editing /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/web/web_export_view /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/partner-contact/base_partner_sequence /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/reporting-engine/report_xlsx /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/server-tools/mass_editing /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/web/web_export_view /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/account_bank_statement_import /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/server-tools/disable_odoo_online /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_asset /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/10n-spain/l10n_es_account_balance_report /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_bank_statement_import_n43 /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/account-invoicing/account_invoice_refund_link /opt/odoo/custom/addons
+
+	
+	
+	 
+
+	    
+	
+
+                                 
+
+
 
 
