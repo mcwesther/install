@@ -1,5 +1,17 @@
 #!/bin/bash
 # 1.-Descarga
+sudo git clone
+sudo git clone
+sudo git clone
+sudo git clone
+sudo git clone
+sudo git clone
+sudo git clone
+sudo git clone
+sudo git clone
+sudo git clone
+sudo git clone
+sudo git clone
 
 #.-Acceso directo
 sudo ln -s /opt/odoo//account_export_csv,/opt/odoo/custom/addons
