@@ -1,6 +1,6 @@
 #!/bin/bash
 # 1.-Descarga
-sudo git clone
+sudo git clone https://github.com/OCA/account-financial-reporting.git
 sudo git clone
 sudo git clone
 sudo git clone
@@ -14,8 +14,8 @@ sudo git clone
 sudo git clone
 
 #.-Acceso directo
-sudo ln -s /opt/odoo//account_export_csv,/opt/odoo/custom/addons
-sudo ln -s /opt/odoo//account_move_line_report_xls,/opt/odoo/custom/addons
+sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/account-financial-reporting/account_move_line_report_xls /opt/odoo/custom/addons
 sudo ln -s /opt/odoo//account_chart_update,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//account_invoice_constraint_chronology,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//account_invoice_currency,/opt/odoo/custom/addons 
@@ -42,7 +42,7 @@ sudo ln -s /opt/odoo//l10n_es_account_asset,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//l10n_es_account_balance_report,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//l10n_es_account_bank_statement_import_n43,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//l10n_es_account_invoice_sequence,/opt/odoo/custom/addons
-sudo ln -s /opt/odoo//sudo ln -s /opt/odoo//l10n_es_aeat_mod111,/opt/odoo/custom/addons
+sudo ln -s /opt/odoo//l10n_es_aeat_mod111,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//l10n_es_aeat_mod115,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//l10n_es_aeat_mod130,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//l10n_es_aeat_mod303,/opt/odoo/custom/addons
