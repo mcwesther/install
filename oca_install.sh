@@ -63,7 +63,7 @@ sudo ln -s /opt/odoo/bank-payment/account_payment_order /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_payment_mode /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/knowledge/knowledge /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/account_balance_reporting /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/server-tools/date_range  /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/server-tools/date_range /opt/odoo/custom/addons
 
 
 
