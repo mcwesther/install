@@ -1,8 +1,8 @@
 #!/bin/bash
 # 1.-Descarga
 sudo git clone https://github.com/OCA/account-financial-reporting.git -b 8.0 /opt/odoo/account-financial-reporting
-sudo git clone
-sudo git clone
+sudo git clone https://github.com/OCA/account-financial-tools.git -b 8.0 /opt/odoo/account-financial-tools
+sudo git clone 
 sudo git clone
 sudo git clone
 sudo git clone
@@ -16,9 +16,9 @@ sudo git clone
 #.-Acceso directo
 sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-reporting/account_move_line_report_xls /opt/odoo/custom/addons
-sudo ln -s /opt/odoo//account_chart_update,/opt/odoo/custom/addons
+sudo ln -s /opt/odoo/account-financial-tools/account_chart_update /opt/odoo/custom/addons
 sudo ln -s /opt/odoo//account_invoice_constraint_chronology,/opt/odoo/custom/addons
-sudo ln -s /opt/odoo//account_invoice_currency,/opt/odoo/custom/addons 
+sudo ln -s /opt/odoo/account-financial-tools/account_invoice_currency /opt/odoo/custom/addons 
 sudo ln -s /opt/odoo//account_journal_always_check_date,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//account_renumber,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//account_due_list,/opt/odoo/custom/addons
