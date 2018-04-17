@@ -1,0 +1,59 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    <!--
+    <record model="ir.ui.view" id="oca_install.list">
+      <field name="name">oca_install list</field>
+      <field name="model">oca_install.oca_install</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+    -->
+
+    <!-- actions opening views on models -->
+    <!--
+    <record model="ir.actions.act_window" id="oca_install.action_window">
+      <field name="name">oca_install window</field>
+      <field name="res_model">oca_install.oca_install</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    -->
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="oca_install.action_server">
+      <field name="name">oca_install server</field>
+      <field name="model_id" ref="model_oca_install_oca_install"/>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    <!--
+    <menuitem name="oca_install" id="oca_install.menu_root"/>
+    -->
+    <!-- menu categories -->
+    <!--
+    <menuitem name="Menu 1" id="oca_install.menu_1" parent="oca_install.menu_root"/>
+    <menuitem name="Menu 2" id="oca_install.menu_2" parent="oca_install.menu_root"/>
+    -->
+    <!-- actions -->
+    <!--
+    <menuitem name="List" id="oca_install.menu_1_list" parent="oca_install.menu_1"
+              action="oca_install.action_window"/>
+    <menuitem name="Server to list" id="oca_install" parent="oca_install.menu_2"
+              action="oca_install.action_server"/>
+    -->
+  </data>
+</odoo>
