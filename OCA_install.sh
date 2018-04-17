@@ -58,8 +58,8 @@ sudo ln -s /opt/odoo/l10n-spain/l10n_es /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/partner-contact/base_location /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/partner-contact/base_location_geonames_import /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/partner-contact/base_partner_sequence /opt/odoo/custom/addons
-sudo ln -s /opt/odoo//report_custom_filename,/opt/odoo/custom/addons
-sudo ln -s /opt/odoo//report_xls,/opt/odoo/custom/addons
+sudo ln -s /opt/odoo/reporting-engine/report_custom_filename /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/reporting-engine/report_xls /opt/odoo/custom/addons
 sudo ln -s /opt/odoo//disable_openerp_online,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//mass_editing,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//web_export_view,/opt/odoo/custom/addons
