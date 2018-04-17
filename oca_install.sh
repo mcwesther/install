@@ -14,6 +14,7 @@ sudo git clone https://github.com/OCA/account-invoicing.git -b 10.0 /opt/odoo/ac
 sudo git clone https://github.com/OCA/knowledge.git -b 10.0 /opt/odoo/knowledge
 sudo git clone https://github.com/mcwesther/install.git -b 10.0 /opt/odoo/install
 
+
 #.-Acceso directo
 sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-reporting/account_move_line_report_xlsx /opt/odoo/custom/addons
