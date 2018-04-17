@@ -8,8 +8,7 @@ sudo git clone https://github.com/OCA/bank-statement-import.git -b 8.0 /opt/odoo
 sudo git clone https://github.com/OCA/knowledge.git -b 8.0 /opt/odoo/knowledge.git
 sudo git clone https://github.com/OCA/l10n-spain.git -b 8.0 /opt/odoo/l10n-spain.git
 sudo git clone https://github.com/OCA/partner-contact.git -b 8.0 /opt/odoo/partner-contact
-sudo git clone
-sudo git clone
+sudo git clone https://github.com/OCA/reporting-engine.git -b 8.0 /opt/odoo/reporting-engine
 sudo git clone
 
 #.-Acceso directo
