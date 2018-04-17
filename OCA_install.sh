@@ -5,6 +5,7 @@ sudo git clone https://github.com/OCA/account-financial-tools.git -b 8.0 /opt/od
 sudo git clone https://github.com/OCA/account-payment.git -b 8.0 /opt/odoo/accoun/taccount-payment 
 sudo git clone https://github.com/OCA/bank-payment.git -b 8.0 /opt/odoo/accoun/bank-payment
 sudo git clone https://github.com/OCA/bank-statement-import.git -b 8.0 /opt/odoo/bank-statement-import
+sudo git clone https://github.com/OCA/knowledge.git -b 8.0 /opt/odoo/knowledge.git
 sudo git clone
 sudo git clone
 sudo git clone
@@ -30,8 +31,8 @@ sudo ln -s /opt/odoo/bank-payment/account_banking_sepa_direct_debit /opt/odoo/cu
 sudo ln -s /opt/odoo/bank-payment/account_direct_debit /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_payment_partner /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-statement-import/account_bank_statement_import /opt/odoo/custom/addons 
-sudo ln -s /opt/odoo//attachment_preview,/opt/odoo/custom/addons
-sudo ln -s /opt/odoo//attachments_to_filesystem,/opt/odoo/custom/addons
+sudo ln -s /opt/odoo/knowledge.git/attachment_preview /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/knowledge.git/attachments_to_filesystem /opt/odoo/custom/addons
 sudo ln -s /opt/odoo//document_page,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//document_url,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//account_balance_reporting_xls,/opt/odoo/custom/addons
