@@ -22,13 +22,13 @@ sudo ln -s /opt/odoo/account-financial-tools/account_journal_always_check_date /
 sudo ln -s /opt/odoo/account-financial-tools/account_renumber /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-payment/account_due_list,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-payment/account_due_list_payment_mode,/opt/odoo/custom/addons
-sudo ln -s /opt/odoo//account_banking_mandate,/opt/odoo/custom/addons 
-sudo ln -s /opt/odoo//account_banking_pain_base,/opt/odoo/custom/addons
-sudo ln -s /opt/odoo//account_banking_payment_export,/opt/odoo/custom/addons
-sudo ln -s /opt/odoo//account_banking_payment_transfer,/opt/odoo/custom/addons
-sudo ln -s /opt/odoo//account_banking_sepa_direct_debit,/opt/odoo/custom/addons
-sudo ln -s /opt/odoo//account_direct_debit,/opt/odoo/custom/addons
-sudo ln -s /opt/odoo//account_payment_partner,/opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-payment/account_banking_mandate /opt/odoo/custom/addons 
+sudo ln -s /opt/odoo/bank-payment/account_banking_pain_base /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-payment/account_banking_payment_export /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-payment/account_banking_payment_transfer /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-payment/account_banking_sepa_direct_debit /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-payment/account_direct_debit /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-payment/account_payment_partner /opt/odoo/custom/addons
 sudo ln -s /opt/odoo//account_bank_statement_import, NO EXISTE EN LA 10/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//attachment_preview,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//attachments_to_filesystem,/opt/odoo/custom/addons
