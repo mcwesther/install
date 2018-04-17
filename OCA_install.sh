@@ -1,8 +1,8 @@
 #!/bin/bash
 # 1.-Descarga
 sudo git clone https://github.com/OCA/account-financial-reporting.git -b 8.0 /opt/odoo/account-financial-reporting
-sudo git clone https://github.com/OCA/account-financial-tools.git -b 8.0 /opt/odoo/account-financial-tools
-sudo git clone 
+sudo git clone https://github.com/OCA/account-financial-tools.git -b 8.0 /opt/odoo/account/financial-tools
+sudo git clone https://github.com/OCA/account-payment.git -b 8.0 /opt/odoo/accoun/taccount-payment 
 sudo git clone
 sudo git clone
 sudo git clone
@@ -20,8 +20,8 @@ sudo ln -s /opt/odoo/account-financial-tools/account_invoice_constraint_chronolo
 sudo ln -s /opt/odoo/account-financial-tools/account_invoice_currency /opt/odoo/custom/addons 
 sudo ln -s /opt/odoo/account-financial-tools/account_journal_always_check_date /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-tools/account_renumber /opt/odoo/custom/addons
-sudo ln -s /opt/odoo//account_due_list,/opt/odoo/custom/addons
-sudo ln -s /opt/odoo//account_due_list_payment_mode,/opt/odoo/custom/addons
+sudo ln -s /opt/odoo/account-payment/account_due_list,/opt/odoo/custom/addons
+sudo ln -s /opt/odoo/account-payment/account_due_list_payment_mode,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//account_banking_mandate,/opt/odoo/custom/addons 
 sudo ln -s /opt/odoo//account_banking_pain_base,/opt/odoo/custom/addons
 sudo ln -s /opt/odoo//account_banking_payment_export,/opt/odoo/custom/addons
