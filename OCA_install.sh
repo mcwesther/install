@@ -3,7 +3,7 @@
 sudo git clone https://github.com/OCA/account-financial-reporting.git -b 8.0 /opt/odoo/account-financial-reporting
 sudo git clone https://github.com/OCA/account-financial-tools.git -b 8.0 /opt/odoo/account/financial-tools
 sudo git clone https://github.com/OCA/account-payment.git -b 8.0 /opt/odoo/accoun/taccount-payment 
-sudo git clone
+sudo git clone https://github.com/OCA/bank-payment.git -b 8.0 /opt/odoo/accoun/bank-payment
 sudo git clone
 sudo git clone
 sudo git clone
