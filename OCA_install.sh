@@ -6,7 +6,7 @@ sudo git clone https://github.com/OCA/account-payment.git -b 8.0 /opt/odoo/accou
 sudo git clone https://github.com/OCA/bank-payment.git -b 8.0 /opt/odoo/accoun/bank-payment
 sudo git clone https://github.com/OCA/bank-statement-import.git -b 8.0 /opt/odoo/bank-statement-import
 sudo git clone https://github.com/OCA/knowledge.git -b 8.0 /opt/odoo/knowledge.git
-sudo git clone
+sudo git clone https://github.com/OCA/l10n-spain.git -b 8.0 /opt/odoo/l10n-spain.git
 sudo git clone
 sudo git clone
 sudo git clone
