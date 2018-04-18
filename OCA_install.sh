@@ -11,6 +11,7 @@ sudo git clone https://github.com/OCA/partner-contact.git -b 8.0 /opt/odoo/partn
 sudo git clone https://github.com/OCA/reporting-engine.git -b 8.0 /opt/odoo/reporting-engine
 sudo git clone https://github.com/OCA/server-tools.git -b 8.0 /opt/odoo/server-tools
 sudo git clone https://github.com/OCA/web.git -b 8.0 /opt/odoo/web
+sudo git clne https://github.com/OCA/pos.git -b 8.0 /opt/odoo/pos
 
 #.-Acceso directo
 sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons
