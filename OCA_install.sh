@@ -65,6 +65,7 @@ sudo ln -s /opt/odoo/reporting-engine/report_xls /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/server-tools/disable_openerp_online /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/server-tools/mass_editing /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/web/web_export_view /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/pos/pos_pricelist /opt/odoo/custom/addons
 
 
 
