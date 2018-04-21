@@ -66,10 +66,12 @@ sudo ln -s /opt/odoo/bank-payment/account_payment_mode /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/knowledge/knowledge /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/account_balance_reporting /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/server-tools/date_range /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/account-financial-reporting/account_tax_balance /opt/odoo/custom/addons 
+sudo ln -s /opt/odoo/account-financial-reporting/account_tax_balance /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/account_balance_reporting_xlsx /opt/odoo/custom/addons
 
 
-'l10n_es_account_balance_repor
+
+
 
 
 
