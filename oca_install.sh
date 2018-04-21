@@ -69,6 +69,9 @@ sudo ln -s /opt/odoo/server-tools/date_range /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-reporting/account_tax_balance /opt/odoo/custom/addons 
 
 
+'l10n_es_account_balance_repor
+
+
 
 
 
